@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import { LibKeccak } from "contracts/lib/LibKeccak.sol";
+import { LibKeccak } from "./LibKeccak.sol";
 
 /// @title StatefulSponge
 /// @dev This is a test contract that allows for streaming bytes into the Keccak sponge over multiple transactions
